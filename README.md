@@ -1,7 +1,8 @@
-# Advancing-Mental-Health-Support
 # 🧠 Advancing Mental Health Support
 
 An AI-powered web application that analyzes **text and audio inputs** to assess a user’s mental health condition—specifically targeting **depression** and **suicidal tendencies**. This multimodal tool uses Machine Learning and Deep Learning to provide real-time screening, emotional state recognition, and tailored recommendations.
+
+---
 
 ## 💡 Project Objective
 
@@ -11,6 +12,8 @@ An AI-powered web application that analyzes **text and audio inputs** to assess 
 - Deliver **personalized wellness recommendations**, crisis helplines, and support videos.
 - Built using **Streamlit** for real-time and private self-assessment.
 
+---
+
 ## 🏗️ Project Architecture
 
 ### 🔤 Text Analysis
@@ -19,40 +22,71 @@ An AI-powered web application that analyzes **text and audio inputs** to assess 
 
 ### 🔊 Audio Analysis
 - **Features Extracted**: MFCCs, ZCR, Spectral Rolloff, MelSpectrograms.
-- **Model**: MLP (Multi-Layer Perceptron) for depression detection, CNN+BiLSTM for emotion classification.
+- **Models Used**:
+  - MLP (Multi-Layer Perceptron) for depression detection.
+  - CNN + BiLSTM for emotion classification.
 
 ### 🧩 Fusion Logic
 - A rule-based mechanism integrates both modalities to enhance prediction reliability.
 
+---
+
 ## 🧪 Evaluation Metrics
+
 - **Text Classifier Accuracy**: 90.2%
 - **Audio Classifier Accuracy**: 93%
-- Evaluation includes: Precision, Recall, F1-score, and Confusion Matrix.
+- Metrics include: Precision, Recall, F1-Score, and Confusion Matrix.
 
-## 💻 How to Run
+---
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/RukkiahSajeena/advancing-mental-health-support.git
-   cd advancing-mental-health-support
-   
 ## 🚀 How to Run the App
 
-### 1. Install dependencies:
+1. Open the folder in Visual Studio Code: "advancing-mental-health-support"
 
-```bash
-pip install -r requirements.txt
-python -m streamlit run app.py
-The app will open in your browser at http://localhost:8501
+2.Install required packages pip install streamlit  pandas numpy matplotlib librosa scikit-learn tensorflow
 
-##⚙️ Features
--Upload and analyze voice recordings
+3.Run the app, python -m streamlit run app.py
 
--Detect emotional states: Normal, Sad, Depressed, Suicidal
+4.The app will open in your browser at: http://localhost:8501
 
--Visualize audio waveforms and extracted features
+---
 
--Simple and user-friendly Streamlit interface
+⚙️ Features
+Upload and analyze voice recordings.
 
+Detect emotional states: Normal, Sad, Depressed, Suicidal.
 
-   
+Visualize audio waveforms and extracted features.
+
+Simple and user-friendly Streamlit interface.
+
+📊 Technologies Used
+Python
+
+Streamlit – Web app framework
+
+Librosa – Audio processing
+
+Scikit-learn – Machine learning models
+
+Pandas and NumPy – Data handling
+
+Matplotlib and Seaborn – Visualization
+
+🧪 Future Scope
+Expand the model to support real-time monitoring.
+
+Include demographic filters (e.g., age groups, gender).
+
+Integrate with mobile applications or healthcare platforms.
+
+✨ Author
+Developed by Rukkiah Sajeena M and Zaafira A
+Final Year B.Tech CSE C Student
+
+📌 License
+This project is for educational and research purposes only.
+
+📌 Disclaimer
+This project is intended for educational and research purposes only.
+
