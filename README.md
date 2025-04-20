@@ -51,42 +51,46 @@ An AI-powered web application that analyzes **text and audio inputs** to assess 
 
 ---
 
-⚙️ Features
-Upload and analyze voice recordings.
+##⚙️ Features
+1.Upload and analyze voice recordings.
 
-Detect emotional states: Normal, Sad, Depressed, Suicidal.
+2.Detect emotional states: Normal, Sad, Depressed, Suicidal.
 
-Visualize audio waveforms and extracted features.
+3.Visualize audio waveforms and extracted features.
 
-Simple and user-friendly Streamlit interface.
+4.Simple and user-friendly Streamlit interface.
 
-📊 Technologies Used
+---
+
+##📊 Technologies Used
 Python
 
-Streamlit – Web app framework
+1.Streamlit – Web app framework
 
-Librosa – Audio processing
+2.Librosa – Audio processing
 
-Scikit-learn – Machine learning models
+3.Scikit-learn – Machine learning models
 
-Pandas and NumPy – Data handling
+4.Pandas and NumPy – Data handling
 
-Matplotlib and Seaborn – Visualization
+5.Matplotlib and Seaborn – Visualization
 
-🧪 Future Scope
-Expand the model to support real-time monitoring.
+---
 
-Include demographic filters (e.g., age groups, gender).
+##🧪 Future Scope
+1.Expand the model to support real-time monitoring.
 
-Integrate with mobile applications or healthcare platforms.
+2.Include demographic filters (e.g., age groups, gender).
 
-✨ Author
-Developed by Rukkiah Sajeena M and Zaafira A
-Final Year B.Tech CSE C Student
+3.Integrate with mobile applications or healthcare platforms.
 
-📌 License
+---
+
+##📌 License
 This project is for educational and research purposes only.
 
-📌 Disclaimer
+---
+
+##📌 Disclaimer
 This project is intended for educational and research purposes only.
 
