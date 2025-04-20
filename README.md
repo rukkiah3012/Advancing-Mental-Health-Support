@@ -96,3 +96,8 @@ This project is for educational and research purposes only.
 ## 📌 Disclaimer
 This project is intended for educational and research purposes only.
 
+---
+
+## ✨ Author
+Developed by Rukkiah Sajeena M and Zaafira A
+
