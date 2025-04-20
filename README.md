@@ -35,5 +35,24 @@ An AI-powered web application that analyzes **text and audio inputs** to assess 
    ```bash
    git clone https://github.com/RukkiahSajeena/advancing-mental-health-support.git
    cd advancing-mental-health-support
+   
+## 🚀 How to Run the App
+
+### 1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
+The app will open in your browser at http://localhost:8501
+
+##⚙️ Features
+-Upload and analyze voice recordings
+
+-Detect emotional states: Normal, Sad, Depressed, Suicidal
+
+-Visualize audio waveforms and extracted features
+
+-Simple and user-friendly Streamlit interface
+
 
    
