@@ -41,7 +41,7 @@ An AI-powered web application that analyzes **text and audio inputs** to assess 
 
 ## 🚀 How to Run the App
 
-1. Open the folder in Visual Studio Code: "advancing-mental-health-support"
+1.Open the folder in Visual Studio Code: "advancing-mental-health-support"
 
 2.Install required packages pip install streamlit  pandas numpy matplotlib librosa scikit-learn tensorflow
 
